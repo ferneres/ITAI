@@ -1,25 +1,72 @@
 :root {
     --main-bg-color:#002f49;
-    --secondary-font-color:#fff;
+    --primary-font-color:#fff;
+    --secondary-font-color:#000;
 }
 
 .head {
     background: var(--main-bg-color);
-    color: #fff
+    color:var(--primary-font-color)
 }
 
 .destaque{
     background-color: var(--main-bg-color);
-    color: var(--secondary-font-color);
+    color: var(--primary-font-color);
 }
 
 .destaque img{
     max-width:100%;
-
 }
 
+.noticia{
+    justify-content:center ;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: var(--main-bg-color);
+}
+.noticia .card{
+    justify-content:center ;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--secondary-font-color);
 
+}
+.solucao{
+    background-image: url(imagens/fundoSolucao.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: left;
+    background-size: cover;
+    margin: 30px 0 20px 0;
+    
+    
+}
 
+.solucao .card{
+    justify-content:center ;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: var(--main-bg-color);
+    color: var(--primary-font-color);
+
+}
+.footer{
+    text-align: center;
+    background-color: var(--main-bg-color);
+    color: var(--primary-font-color);
+    
+    
+}
+.footer .social{
+    box-sizing: border-box;
+    display: block;
+   
+   
+}
 
 /* CSS PARA DISPOSITIVOS GRANDES */
 @media screen and (min-width: 1080px) {
