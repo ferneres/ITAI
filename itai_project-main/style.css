@@ -28,6 +28,7 @@
     color: var(--main-bg-color);
 }
 .noticia .card{
+    width: 18rem;
     justify-content:center ;
     text-align: left;
     margin: auto;
